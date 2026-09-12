@@ -22,6 +22,17 @@ Rozszerzenie Chromium dla OmeTV.
 - licznik wykonanych Auto Skipów,
 - kompaktowy panel,
 - ustawienia zapisane lokalnie,
-- dostęp ograniczony do ome.tv.
+- automatyczne sprawdzanie wersji z GitHuba co godzinę,
+- informacja o aktualizacji i link do pobrania.
 
-Geolokalizacja i rozbudowane filtry sieciowe wymagają później własnego, jawnego backendu. Nie kopiujemy kodu ani tokenów OME.UNDFND.
+## Aktualizacje
+
+Rozszerzenie sprawdza plik extension/update.json na GitHubie. Przy instalacji jako Load unpacked Chrome nie może sam podmienić własnych plików, więc po aktualizacji:
+
+1. pobierz najnowszy ZIP repozytorium,
+2. zastąp lokalny folder extension,
+3. kliknij Odśwież na chrome://extensions.
+
+Po publikacji w Chrome Web Store aktualizacje będą obsługiwane przez mechanizm sklepu.
+
+Geolokalizacja i rozbudowane filtry sieciowe wymagają własnego, jawnego backendu. Nie kopiujemy kodu ani tokenów OME.UNDFND.
