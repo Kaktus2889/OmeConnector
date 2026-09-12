@@ -1,6 +1,6 @@
 # OmeConnector Companion
 
-Pierwszy moduł rozszerzenia Chromium dla OmeTV.
+Rozszerzenie Chromium dla OmeTV.
 
 ## Instalacja
 
@@ -12,11 +12,16 @@ Pierwszy moduł rozszerzenia Chromium dla OmeTV.
 
 ## Obecnie działa
 
-- lokalny overlay,
-- licznik aktywnych kamer i rozdzielczość,
-- Auto Skip po minimalnej liczbie kamer,
+- przesuwany overlay z zapamiętaną pozycją,
+- skrót Alt+O do pokazywania i ukrywania panelu,
+- liczba aktywnych kamer i ścieżek audio,
+- rozdzielczość obrazu i czas sesji,
+- ręczny przycisk Pomiń teraz,
+- Auto Skip po liczbie aktywnych kamer,
+- opcja Skip bez aktywnej kamery,
+- licznik wykonanych Auto Skipów,
 - kompaktowy panel,
-- ustawienia lokalne,
-- dostęp tylko do ome.tv.
+- ustawienia zapisane lokalnie,
+- dostęp ograniczony do ome.tv.
 
 Geolokalizacja i rozbudowane filtry sieciowe wymagają później własnego, jawnego backendu. Nie kopiujemy kodu ani tokenów OME.UNDFND.
