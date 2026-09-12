@@ -7,6 +7,9 @@ label { display:flex; justify-content:space-between; align-items:center; gap:14p
 input[type=checkbox] { width:17px; height:17px; accent-color:#818cf8; }
 input[type=number] { width:52px; padding:6px; color:#fff; background:#1f2937; border:1px solid #475569; border-radius:6px; }
 .notice { margin:14px 0; padding:10px; color:#cbd5e1; background:rgba(129,140,248,.1); border-radius:9px; font-size:11px; line-height:1.45; }
+.updates { margin:14px 0; padding:11px; border:1px solid rgba(129,140,248,.25); border-radius:10px; background:rgba(129,140,248,.08); }
+.updates strong { display:block; margin-bottom:5px; font-size:13px; }
+.updates a { display:block; margin:6px 0; color:#a5b4fc; font-size:12px; }
 button { width:100%; padding:10px; color:#fff; background:#6366f1; border:0; border-radius:9px; cursor:pointer; font-weight:700; }
 button:hover { background:#4f46e5; }
 button.secondary { margin-top:6px; color:#cbd5e1; background:#1f2937; }
