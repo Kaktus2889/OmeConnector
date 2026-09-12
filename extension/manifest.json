@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "OmeConnector Companion",
+  "version": "0.1.0",
+  "description": "Czytelna, lokalna nakładka diagnostyczna dla OmeTV.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://ome.tv/*"],
+  "action": {
+    "default_title": "OmeConnector",
+    "default_popup": "src/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ome.tv/*"],
+      "js": ["src/content.js"],
+      "css": ["src/styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
