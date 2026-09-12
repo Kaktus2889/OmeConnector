@@ -15,7 +15,13 @@
     <label><span>Minimalna liczba kamer</span><input id="minVideos" type="number" min="0" max="4"></label>
     <label><span>Kompaktowy panel</span><input id="compact" type="checkbox"></label>
     <button id="resetPosition" class="secondary" type="button">Resetuj pozycję panelu</button>
-    <p class="notice">Skrót Alt+O pokazuje lub ukrywa panel. Ustawienia i licznik Auto Skip są lokalne.</p>
+    <section class="updates">
+      <strong>Aktualizacje</strong>
+      <p id="updateStatus">Sprawdzanie…</p>
+      <a id="downloadUpdate" hidden target="_blank" rel="noopener">Pobierz najnowszą wersję</a>
+      <button id="checkUpdate" class="secondary" type="button">Sprawdź teraz</button>
+    </section>
+    <p class="notice">Rozszerzenie sprawdza wersję z GitHuba co godzinę. W trybie „Load unpacked” Chrome nie może sam podmienić plików — po aktualizacji kliknij Odśwież na stronie rozszerzeń.</p>
     <button id="save" type="button">Zapisz ustawienia</button>
     <p id="message" class="message"></p>
   </main>
