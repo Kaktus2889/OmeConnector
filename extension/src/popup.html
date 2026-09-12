@@ -11,9 +11,11 @@
     <header><div><h1>OmeConnector</h1><p>Panel OmeTV</p></div><span class="dot"></span></header>
     <label><span>Pokazuj overlay</span><input id="enabled" type="checkbox"></label>
     <label><span>Auto Skip</span><input id="autoSkip" type="checkbox"></label>
+    <label><span>Skip bez aktywnej kamery</span><input id="skipNoCamera" type="checkbox"></label>
     <label><span>Minimalna liczba kamer</span><input id="minVideos" type="number" min="0" max="4"></label>
     <label><span>Kompaktowy panel</span><input id="compact" type="checkbox"></label>
-    <p class="notice">Ta wersja przechowuje ustawienia lokalnie i nie zbiera dokładnych adresów IP.</p>
+    <button id="resetPosition" class="secondary" type="button">Resetuj pozycję panelu</button>
+    <p class="notice">Skrót Alt+O pokazuje lub ukrywa panel. Ustawienia i licznik Auto Skip są lokalne.</p>
     <button id="save" type="button">Zapisz ustawienia</button>
     <p id="message" class="message"></p>
   </main>
